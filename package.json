@@ -1,0 +1,14 @@
+{
+  "name": "caching-proxy",
+  "version": "1.0.0",
+  "description": "A CLI caching proxy server that forwards and caches HTTP responses",
+  "main": "src/index.js",
+  "bin": {
+    "caching-proxy": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["proxy", "cache", "cli", "http"],
+  "license": "MIT"
+}
